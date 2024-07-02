@@ -1,4 +1,4 @@
-export const combinations = (array, sum) => {
+const combinations = (array, sum) => {
     const result = [];
 
     const f = (accumulator, indices, combination) => {
