@@ -31,7 +31,7 @@ For users who wish to extract matrix data from images, the project includes a Py
 2. **Preparing the Image**:
     - Take a screenshot of the game and crop it so only the table is visible. An example image is shown below:
 
-    ![Example Game Table](images/example_table.jpeg)
+    ![Example Game Table](iamges/example_table.jpeg)
 
 3. **Running the Program**:
     - Transfer the cropped image to your computer.
