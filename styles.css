@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#matrix-container table, #result-matrix {
+    border-collapse: collapse;
+    margin-top: 20px;
+    table-layout: fixed; /* Ensures the table layout is fixed */
+}
+
+#matrix-container table td, #result-matrix td {
+    border: 1px solid #000;
+    width: 50px; /* Adjusted for square cells */
+    height: 50px; /* Adjusted for square cells */
+    text-align: center;
+    padding: 0; /* Ensures input fits well */
+}
+
+#result-matrix td {
+    background-color: lightblue;
+}
+
+/* Add these selectors for changing background colors based on data attributes */
+#result-matrix td[data-bad] {
+    background-color: red;
+}
+
+#result-matrix td[data-good] {
+    background-color: green;
+}
+
+#matrix-container {
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+/* Styling for number inputs */
+#matrix-container input[type='number'] {
+    width: 50%;
+    height: 50%;
+    border: 1px dashed blue; /* Removes border */
+    -moz-appearance: textfield; /* Removes spinner in Firefox */
+    background-color: transparent; /* Removes spinner in Firefox */
+    font-weight: 600;
+    font-size: large;
+    text-align: center;
+    
+}
+
+/* Removes spinner in Chrome, Safari, Edge */
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

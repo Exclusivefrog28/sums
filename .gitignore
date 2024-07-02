@@ -1,0 +1,6 @@
+.venv/
+*.jpeg
+*.png
+*.txt
+!requirements.txt
+!iamges/*.jpeg
